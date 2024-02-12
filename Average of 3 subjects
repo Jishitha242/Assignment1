@@ -1,0 +1,17 @@
+student_number=int(input("Enter Student RollNo:"))
+name=input("Enter student name:")
+marks1=int(input("enter marks obtained in Telugu:")
+marks2=int(input("enter marks obtained in Hindi:")
+marks3=int(input("enter marks obtained in English:")
+total=marks1+marks2+marks3
+avg=total//3
+if avg >= 75:
+    print("Result is Distinction")
+elif avg >= 60:
+    print("Result is First Class")
+elif avg >= 50:
+    print("Result is Second Class")
+elif avg >= 35:
+    print("Result is Third Class")
+else:
+    print("Result is Fail")
